@@ -20,6 +20,7 @@ print("\n")
 # Import the cars.csv data: cars
 cars = pd.read_csv('csv/cars.csv')
 print(cars)
+
 """
 cars = pd.read_csv('csv/cars.csv', index_col=0)
 print(cars['cars_per_cap'])
