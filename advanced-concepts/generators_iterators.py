@@ -34,5 +34,5 @@ if type(fib()) == types.GeneratorType:
     for n in fib():
         print(n)
         counter += 1
-        if counter == 10:
+        if counter == 15:
             break
