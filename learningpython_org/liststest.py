@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pandas import numpy
+# from pandas import numpy
 
 list_functions_with_the_word_api = []
 
