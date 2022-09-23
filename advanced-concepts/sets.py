@@ -20,3 +20,8 @@ print(a.union(b))
 
 a = ["Jake", "John", "Eric"]
 b = ["John", "Jill"]
+
+var_a = set(a)
+var_b = set(b)
+
+print(var_a.difference(var_b))
