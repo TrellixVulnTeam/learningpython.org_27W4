@@ -21,7 +21,6 @@ print(pickle.loads(pickled_string))
 def add_employee(salaries_json, name,  salary):
     salaries = json.loads(salaries_json)
     salaries[name] = salary
-
     return json.dumps(salaries)
 
 
