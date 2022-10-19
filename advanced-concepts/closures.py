@@ -1,6 +1,4 @@
 # Example 1
-# from pandas.io.html import numbers
-
 
 def transmit_to_space(message):
     "This is the enclosing function"
